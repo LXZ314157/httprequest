@@ -28,10 +28,10 @@ public class HttpRequestTest {
 
     public static void main(String[]args){
         getRequestWithNoParam();//get请求 无参
-//        getRequestWithUrlParam();//get请求，参数格式：拼接url 含有header(token)
-//        getRequestWithUriParam();//get请求，参数格式：使用URI获得HttpGet
-//        postRequestWithNoParam();//POSt请求 无参
-//        postRequestWithUrlParam();//POST请求 参数格式：url拼接
+        getRequestWithUrlParam();//get请求，参数格式：拼接url 含有header(token)
+        getRequestWithUriParam();//get请求，参数格式：使用URI获得HttpGet
+        postRequestWithNoParam();//POSt请求 无参
+        postRequestWithUrlParam();//POST请求 参数格式：url拼接
 //        postRequestWithJson();//post请求 json格式参数
     }
 
