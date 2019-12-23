@@ -27,7 +27,7 @@ import java.util.UUID;
 public class HttpRequestTest {
 
     public static void main(String[]args){
-//        getRequestWithNoParam();//get请求 无参
+        getRequestWithNoParam();//get请求 无参
 //        getRequestWithUrlParam();//get请求，参数格式：拼接url 含有header(token)
 //        getRequestWithUriParam();//get请求，参数格式：使用URI获得HttpGet
 //        postRequestWithNoParam();//POSt请求 无参
